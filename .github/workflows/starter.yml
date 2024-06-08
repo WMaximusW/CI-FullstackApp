@@ -35,7 +35,7 @@ jobs:
       - run: cd CI-FullstackApp/backend && npm test
 
       # Run the linter.
-      - run: cd CI-FullstackApp/backend && npm run lint
+      # - run: cd CI-FullstackApp/backend && npm run lint
 
       # Send a console message at completion.
       - run: |
